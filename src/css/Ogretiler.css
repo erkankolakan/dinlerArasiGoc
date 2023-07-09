@@ -1,0 +1,21 @@
+::selection {
+    background-color: rgba(145, 0, 0, 0.738); 
+  }
+
+
+  .resimler{
+    box-shadow: 0px 10px 10px -3px rgba(97, 0, 0, 0.353);
+    transition: 1s ;
+   
+  }
+
+  .resimler:hover{
+    transform: scale(1.03) translateX(10px);
+    box-shadow: 0px 10px 10px -3px rgba(97, 0, 0, 0.535);
+
+  }
+
+  .resimlerAcıklamaları , .resimler{
+    cursor: pointer;
+
+  }
