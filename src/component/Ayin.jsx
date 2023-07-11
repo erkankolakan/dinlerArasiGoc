@@ -50,7 +50,7 @@ const AccountMenu = () => {
           >
 
 {/* resim kontrolleri bir alt satırda */}
-              <img className='konustu w-[85px] rounded-full' src={Cat} alt="" /> 
+              <img className='konustu  w-[85px] rounded-full' src={Cat} alt="" /> 
           </IconButton>
         </Tooltip>
       </Box>
@@ -123,7 +123,7 @@ const Ayin = () => {
       <div className='absolute arkplan flex justify-center items-end'>
         <div className='m-12 flex gap-10 flex justify-center items-center mb-[12px] mr-[120px] '>
           <div className=''>
-            <img className='cursor-pointer w-full h-full rounded-[50%] py-3 px-4' src={Mute} alt=""/>
+            <img className='cursor-pointer  w-full h-full rounded-[50%] py-3 px-4' src={Mute} alt=""/>
           </div>
           <div className='text cursor-pointer text-[25px] font-[500] flex justify-center items-center bg-red-900 
           rounded-[10px] px-10 h-[60px]'>Ayini Bitir</div>
