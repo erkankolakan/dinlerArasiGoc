@@ -8,23 +8,29 @@ import { BiUpArrow } from 'react-icons/bi';
 const Profil = () => {
   return (
     <div  className='bg-black w-[100vw] h-[100vh]'>
-        <div className='bg-red-700 rounded-br-[200px] rounded-bl-[200px]  w-full h-[40vh]  '>
-            <div className='w-full h-full'>
-                <div className=' w-full h-full pt-48 pb-[200px] flex justify-center items-center flex-col'> 
-                <div className='w-full pt-2 absolute bg-black h-[5px]'/>
-                    <img src={dog} alt="" className=' relative z-[+1] rounded-full  border-white border-8 w-[200px] h-[200px] rounded-full  ' />
-                    <div className='text-3xl text-ble bold'>Erkan</div>
-                    <div className='text-3xl text-ble bold'>LansteryaXz</div>
-                    <div className='text-3xl text-ble bold'>21</div>
-
-
-
-                 </div> 
-                
+      <div className='bg-red-700  rounded-br-[200px] rounded-bl-[200px]  w-full h-[40vh]  '>
+        <div> 
+          <div className='pt-[1%]'> 
+            <div className='border-white border-4 relative z-[+1]  rounded-full inline-block '>
+              <img className='w-[200px] h-[200px] rounded-full  ' src={dog} alt="profil resimi" />
             </div>
+            <div className='w-full absolute top-40 h-2 bg-black'/>
+            <div className=''>
+                <div className='text-black text-4xl font-bold text-center'>Erkan</div>
+                <div className='text-black text-2xl font-bold text-center'>LansteryaXz</div>
+                <div className='text-black text-2xl font-bold text-center'>21</div>
+            </div>
+          </div>
         </div>
-   
+        
+
+
+
+
+
+      </div>
     </div>
+   
   )
 }
 
