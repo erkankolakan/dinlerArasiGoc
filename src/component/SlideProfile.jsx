@@ -65,6 +65,10 @@
 
 
     const SlideProfile = () => {
+<<<<<<< HEAD
+=======
+        
+>>>>>>> asd
     return (
         <div>
         {['left', 'right', 'top', 'bottom'].map((anchor) => (

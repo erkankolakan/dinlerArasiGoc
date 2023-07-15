@@ -9,8 +9,7 @@ import Lobiler from './component/Lobiler';
 import UyeOl from './component/UyeOl';
 import AyinOku from './component/AyinOku';
 import Chat from './component/Chat';
-
-
+import Profil from './component/Profil';
 
 
 
@@ -26,6 +25,8 @@ function App() {
             <Route path="/uyeol"element={<UyeOl/>}></Route>
             <Route path="/ayinoku"element={<AyinOku/>}></Route>
             <Route path="/chat"element={<Chat/>}></Route>
+            <Route path="/profil"element={<Profil/>}></Route>
+
         </Routes>
     </div>
   );
